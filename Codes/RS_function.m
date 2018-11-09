@@ -1,4 +1,4 @@
-function [S] = RS_code(data, delta, T, xi, Resp_type)
+function [S] = RS_function(data, delta, T, xi, Resp_type)
 % L. Viens 09/11/2018
 % This function computes the spectral response of a time-series using the
 % Duhamel integral technique.
