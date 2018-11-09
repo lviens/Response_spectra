@@ -1,6 +1,7 @@
 # Response spectra
 Matlab response spectra function with an example.
 - Main function: RS_function.m
+
 Function to compute the spectral response of a time-series using the Duhamel integral technique.
 
 - Example (Example_RS.m):
