@@ -22,6 +22,7 @@ clear all
 close all
 clc
 
+addpath('../Data')
 % Components of the ground motion
 components = {'NS2' ; 'EW2' ; 'UD2'};
 
