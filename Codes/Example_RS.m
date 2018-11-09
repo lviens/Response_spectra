@@ -27,7 +27,7 @@ clc
 components = {'NS2' ; 'EW2' ; 'UD2'};
 
 % Parameters of the response spectra
-Resp_type = 'SV';
+Resp_type = 'SA';
 T = [0.05:0.005:0.1 0.11:0.01:0.4 0.42:0.02:0.5 0.525:0.025:0.6 0.65:0.05:1 1.1:0.1:5 5.5:0.5:10];
 xi = .05;
 
