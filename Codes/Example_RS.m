@@ -14,7 +14,7 @@
 %                - 'PSA' : Pseudo-acceleration Spectra
 %                - 'SV'  : Velcity Spectra
 %                - 'PSV' : Pseudo-velocity Spectra
-%                - 'SD'  : Displacement Spectraand
+%                - 'SD'  : Displacement Spectra
 %   - T: Period vector
 %   - xi: Damping factor (0.05 -> 5%)
 
