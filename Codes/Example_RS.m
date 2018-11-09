@@ -22,7 +22,7 @@ clear all
 close all
 clc
 
-addpath('../Data')
+
 % Components of the ground motion
 components = {'NS2' ; 'EW2' ; 'UD2'};
 
@@ -37,8 +37,8 @@ Sfin = zeros(3, length(T));
 % Loop over the NS, EW, and UD components, read the KiK-net data and
 % compute the response spectra.
 for i = 1 : length(components)
-    [data(i,:), t, delta] = read_KiK_net(['./TKYH121103111446.' components{i}] );
-    [Sfin(i,:)] = RS_code(data(i,:), delta, T, xi, Resp_type);
+    [data(i,:), t, delta] = read_KiK_net(['../Data/TKYH121103111446.' components{i}] );
+    [Sfin(i,:)] = RS_function(data(i,:), delta, T, xi, Resp_type);
 end
 
 
