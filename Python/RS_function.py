@@ -3,12 +3,12 @@ Created on Wed Jul 31 12:23:55 2019
 
 @author: Loic
 
-- Function to compute the response spectra of a time series using the Duhamel integral technique.
+- Function to compute the response spectra of time series using the Duhamel integral technique.
 
 Inputs:
    - data: acceleration data in the time domain
    - delta: Sampling rate of the time-series (in Hz)
-   - T: Output period range in second (Example: if delta > 50 Hz: T=[0.05:0.005:0.1 0.11:0.01:0.4 0.42:0.02:0.5 0.525:0.025:0.6 0.65:0.05:1 1.1:0.1:5 5.5:0.5:10])
+   - T: Output period range in second, Example (if delta>=20 Hz): T = np.concatenate((np.arange(.1, 1, .01), np.arange(1, 20, .1)))
    - xi: Damping factor (Standard: 5% -> 0.05)
    - Resp_type: Response type, choose between:
                 - 'SA'  : Acceleration Spectra
