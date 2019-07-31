@@ -1,5 +1,9 @@
 # Response spectra function (Matlab and Python)
-Matlab and Python response spectra functions with an example (Matlab only).<br/>
+Matlab and Python response spectra functions with an example (Matlab only). 
+
+Please cite the following paper if you use this code: 
+Viens, Loïc and Marine A. Denolle (2019) Long‐Period Ground Motions from Past and Virtual Megathrust Earthquakes along the Nankai Trough, Japan. Bulletin of the Seismological Society of America, 109(4), 1312–1330 <br/>
+
 - Main function: RS_function.m<br/>
 Function to compute the spectral response of a time-series using the Duhamel integral technique.
 
