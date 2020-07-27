@@ -6,13 +6,20 @@ Please cite the following paper if you use this code:  <br/>
 
 ## Description:
 
-This repository contains:  <br/>
-- Main function: RS_function.m <br/>
+* The Matlab repository contains:  <br/>
+  - Main function: RS_function.m <br/>
 Function to compute the spectral response of a time-series using the Duhamel integral technique.
 
-- Example (Example_RS.m):<br/>
+  - Example (Example_RS.m):<br/>
 The code reads 3 KiK-net data files (located in the Data folder) using the read_KiK_net.m function and computes the response spectra of the time series using RS_function.m. The KiK-net data are the waveforms of the 2011 Tohoku-Oki earthquake recorded at the surface by the TKYH12 station.<br/>
 The code finally plots the acceleration waveforms as well as the response spectra specified by the User.
 
-- Read KiK-net data: read_KiK_net.m<br/>
+  - Read KiK-net data: read_KiK_net.m<br/>
 This code reads the KiK-net data using the importfile_KiK_header.m and importfile_KiK_net.m functions.
+
+* The Python repository contains: 
+
+## Example:
+This example is obtained by running the **Example.py** Python code. 
+
+<img src="https://github.com/lviens/Response_spectra/blob/master/Figures/Response_spectra.png" width=75%>
