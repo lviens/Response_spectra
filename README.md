@@ -25,6 +25,6 @@ The code finally plots the acceleration waveforms as well as the response spectr
 
 ## Example:
 This example is obtained by running the **Example.py** Python code. 
-The code reads the data in the **Data** folder and computes the 5% acceleration respoinse spectra for the three components at the TKYH12 KiK-net station.
+The code reads the data in the **Data** folder and computes the 5% acceleration response spectra for the three components at the TKYH12 KiK-net station.
 
 <img src="https://github.com/lviens/Response_spectra/blob/master/Figures/Response_spectra.png" width=75%>
