@@ -27,5 +27,8 @@ The code finally plots the acceleration waveforms as well as the response spectr
 The two Figures below are obtained by running the **Example.py** Python code and the **Example_RS.m** Matlab code. 
 The code reads the data in the **Data** folder and computes the 5% acceleration response spectra for the three components at the TKYH12 KiK-net station.
 
-<img src="https://github.com/lviens/Response_spectra/blob/master/Figures/Python_response_spectra.png" width=50%>
-<img src="https://github.com/lviens/Response_spectra/blob/master/Figures/Matlab_response_spectra.png" width=50%>
+* Python code figure:
+<img src="https://github.com/lviens/Response_spectra/blob/master/Figures/Python_response_spectra.png" width=75%>
+
+* Matlab code figure:
+<img src="https://github.com/lviens/Response_spectra/blob/master/Figures/Matlab_response_spectra.png" width=75%>
