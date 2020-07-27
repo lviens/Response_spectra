@@ -14,6 +14,7 @@ Please cite the following paper if you use this code:  <br/>
 The code finally plots the acceleration waveforms as well as the response spectra specified by the User.
 
   - **read_KiK_net.m**: This code reads the KiK-net data using the importfile_KiK_header.m and importfile_KiK_net.m functions.
+  - **importfile_KiK_header.m** and **importfile_KiK_net.m** are used by **read_KiK_net.m** to read the data.
 
 * The **Python** repository contains: 
   - **Example.py**: to compute the response spectra of the KiK-net data in the **Data** folder.
